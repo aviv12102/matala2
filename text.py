@@ -11,7 +11,7 @@ def revword(word:str) -> str:
     the_word = word 
     the_lower_word = the_word.lower()
     str1 = the_lower_word[::-1]
-    print(str1)
+    #print(str1)
     return (str1)
 
 def countword()->int:
@@ -28,6 +28,7 @@ def countword()->int:
         str2=revword(text_list[word])
         if (first_word == str2 ):
             count = count+1
-    print(count+1)
-    return(count+1)
+    count=count+1
+    #print(count)
+    return(count)
 
