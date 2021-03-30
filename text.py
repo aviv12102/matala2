@@ -15,8 +15,8 @@ def revword(word:str) -> str:
     return (str1)
 
 def countword()->int:
-    file = input("please enter the file path: ")
-    text_file = open(file , 'r')
+    #file = input("please enter the file path: ")
+    text_file = open('text.text' , 'r')
     text_file = text_file.read()
     text_file = text_file.lower()
     text_list = text_file.split()
