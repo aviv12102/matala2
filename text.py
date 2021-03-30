@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ -*- coding: utf-8 -*-
 """
 Created on Tue Mar 30 16:37:18 2021
 
@@ -16,7 +16,7 @@ def revword(word:str) -> str:
 
 def countword()->int:
     file = input("please enter the file path: ")
-    text_file = open(file , "r")
+    text_file = open(file , 'r')
     text_file = text_file.read()
     text_file = text_file.lower()
     text_list = text_file.split()
@@ -31,4 +31,3 @@ def countword()->int:
     print(count+1)
     return(count+1)
 
-countword()
